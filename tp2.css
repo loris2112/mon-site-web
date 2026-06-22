@@ -1,0 +1,85 @@
+.retrait {
+    list-style-position: outside;
+}
+
+.pas_de_retrait {
+    list-style-position: inside;
+}
+
+.cercle {
+    list-style-type: circle;
+}
+
+.carre {
+    list-style-type: square;
+}
+
+.rien {
+    list-style-type: none;
+}
+
+.commence_a_zero {
+    list-style-type: decimal-leading-zero;
+}
+
+.lettres_minuscules {
+    list-style-type: lower-alpha;
+}
+
+.chiffres_romains {
+    list-style-type: upper-roman;
+}
+
+.lettres_grecques {
+    list-style-type: lower-greek;
+}
+
+/* Styles supplémentaires */
+h2 {
+ text-indent: 20px;
+    font-family: Arial, Verdana, "Times New Roman", serif;
+}
+h3 {
+ text-indent: 20px;
+    font-family: Arial, Verdana, "Times New Roman", serif;
+}
+
+em {
+    background-color: rgb(255, 251, 0);
+}
+
+strong {
+    color: rgb(255, 0, 55);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    line-height: 1.6;
+}
+
+p {
+    margin-top: 20px;
+}
+
+ul, ol, dl {
+    margin-bottom: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #0d47a1;
+    margin-top: 30px;
+}
+h3 {
+    color: #0d47a1;
+    margin-top: 30px;
+}
+
+ul, ol, dl {
+    margin-bottom: 20px;
+}

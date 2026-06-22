@@ -1,0 +1,21 @@
+.card {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+
+    background: white;
+    border-radius: 20px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+    line-height: 1.8;
+}
+
+.card h1 {
+    color: #0d47a1;
+    margin-bottom: 20px;
+}
+
+.card ul {
+    margin-left: 25px;
+}

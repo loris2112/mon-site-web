@@ -1,0 +1,91 @@
+/* Réinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f7fc;
+}
+
+/* En-tête */
+.header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 40px;
+
+    background: linear-gradient(135deg, #ffffff, #eaf2ff);
+
+    border-bottom: 4px solid #0d6efd;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.bienvenue {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0d47a1;
+    text-align: center;
+    flex: 1;
+    letter-spacing: 1px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 60%;
+    background: white;
+    padding: 5px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Menu */
+.menu {
+    background: white;
+    padding: 20px;
+
+    border-right: 2px solid #e0e0e0;
+}
+
+.menu a {
+    display: block;
+
+    margin-bottom: 15px;
+    padding: 12px 15px;
+
+    color: #0d47a1;
+    text-decoration: none;
+    font-weight: 600;
+
+    border-radius: 12px;
+
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    background: #0d6efd;
+    color: white;
+    transform: translateX(5px);
+}
+
+/* Contenu principal */
+.contenu {
+    padding: 30px;
+    background: #ffffff;
+}
+
+/* Cartes */
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}

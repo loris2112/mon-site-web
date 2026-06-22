@@ -1,0 +1,64 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+/* Double trait PLUS FONCÉ ET ÉPAIS partout */
+table {
+  border: 8px double black; /* 8px au lieu de 6px = plus foncé/épais */
+  border-collapse: collapse;
+  width: 400px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+td {
+  border: 5px double black; /* 5px au lieu de 4px = intérieur plus foncé */
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  overflow: hidden; /* empêche le texte diagonal de dépasser */
+}
+
+/* ENEAM bleu */
+.eneam {
+  color: rgba(17, 0, 255, 0.993);
+  font-weight: bold;
+  padding: 12px;
+}
+
+/* IG1-B fond bleu clair */
+.ig1b {
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+.diag-haut {
+  display: inline-block;
+  transform: rotate(-45deg);
+  transform-origin: center;
+  white-space: nowrap;
+}
+
+.diag-bas {
+  display: inline-block;
+  transform: rotate(45deg);
+  transform-origin: center;
+  white-space: nowrap;
+}
+.diag-programmation {
+  display: inline-block;
+  transform: rotate(-15deg);
+  transform-origin: center;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
